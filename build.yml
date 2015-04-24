@@ -6,10 +6,12 @@ bbver: 4.6
 applog: "rholog.txt"
 iphone:
   configuration: "Release"
-  sdk: "iphonesimulator6.0"
+  sdk: "iphoneos7.1"
   provisionprofile: 
-  codesignidentity: 
-  entitlements: 
+  codesignidentity: "iPhone Developer"
+  entitlements: ./production/Entitlements.plist
+  BundleIdentifier: "com.rhomobile.RhoConnectClientSpecjs"
+  BundleURLScheme: "RhoConnectClientSpecjs" 
 wp:
   productid: "0b698de0-7218-0130-547c-001a925f2369"
 symbian:
