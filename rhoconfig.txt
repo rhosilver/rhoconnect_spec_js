@@ -48,8 +48,8 @@ LastVisitedPage = ''
 
 # sync server url, typically this will look like 'http://<hostname>:<port>/application'
 # for example: 'http://localhost:9292/application'
-syncserver = 'http://10.233.82.83:9292'
-Push.rhoconnect.pushServer='http://10.233.82.83:8675'
+syncserver = 'http://10.233.82.80:9292'
+Push.rhoconnect.pushServer='http://10.233.82.80:8675'
 Push.rhoconnect.pushAppName='someappname'
 
 # geo location inactivity timeout (in seconds)
